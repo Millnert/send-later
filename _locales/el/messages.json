@@ -837,9 +837,33 @@
     "message": "Ctrl+Κλικ",
     "description": "Indicates key combination to access the ctrl+click accelerator function"
   },
+  "accelCtrlLabel.MacOS": {
+    "message": "Cmd+Κλικ",
+    "description": "Indicates key combination to access the ctrl+click accelerator function. On mac the Ctrl key is replaced with the 'Command' key"
+  },
+  "accelShiftLabel": {
+    "message": "Shift+Κλικ",
+    "description": "Indicates key combination to access the shift+click accelerator function"
+  },
+  "okay": {
+    "message": "ΟΚ",
+    "description": "Confirm an action (presented in popup dialogs)"
+  },
   "cancel": {
     "message": "Ακύρωση",
     "description": "Cancel an action (presented in popup dialogs)"
+  },
+  "menuScheduleMsg": {
+    "message": "Προγραμματισμός μηνυμάτων",
+    "description": "Command added to the message list menu for the user to use to schedule one or more selected drafts with Send Later"
+  },
+  "RescheduleErrorTitle": {
+    "message": "Σφάλμα επαναπρογραμματισμού μηνύματος",
+    "description": "Title of pop-up that is displayed when Send Later encounters an unexpected error scheduling the next occurrence of a message."
+  },
+  "TelemetryAskText": {
+    "message": "Μπορούμε να συλλέξουμε ανώνυμα δεδομένα σχετικά με τη χρήση του $1; Τα δεδομένα μάς λένε πώς χρησιμοποιείτε το πρόσθετο και το περιβάλλον σας. Δεν περιέχει πληροφορίες αναγνώρισης, περιεχόμενο ηλεκτρονικού ταχυδρομείου ή πληροφορίες λογαριασμού. Χρησιμοποιούμε τα δεδομένα για να βελτιώσουμε το πρόσθετο, να μετρήσουμε τη χρήση του και να προσδιορίσουμε πού θα επικεντρώσουμε τις προσπάθειές μας. Δεν μοιραζόμαστε τα δεδομένα με κανέναν. Η απάντησή σας δεν θα επηρεάσει τη λειτουργικότητα του πρόσθετου. Οι πλήρεις λεπτομέρειες είναι διαθέσιμες στο $2.",
+    "description": "Text of the pop-up that asks the user whether we can collect anonymous usage data. The second placeholder is replaced with the contents of the string PrivacyPolicy (so we can make it a link."
   },
   "selectNone": {
     "message": "(καμία)",
@@ -860,5 +884,25 @@
   "internalLogCopyLabel": {
     "message": "Αντιγραφή",
     "description": "Label for the buttom to copy the internal log to the clipboard"
+  },
+  "internalLogLinkLabel": {
+    "message": "Προβολή εσωτερικού αρχείου καταγραφής",
+    "description": "Label for the link in the main window pop-up for opening the internal log tab."
+  },
+  "messageTooLargeTitle": {
+    "message": "Πολύ μεγάλο μήνυμα",
+    "description": "The title of the error pop-up that appears at message delivery time if a message that Send Later is supposed to deliver is too large."
+  },
+  "in15minutes": {
+    "message": "σε 15 λεπτά",
+    "description": "Default quick button label"
+  },
+  "in30minutes": {
+    "message": "σε 30 λεπτά",
+    "description": "Default quick button label"
+  },
+  "in2hours": {
+    "message": "σε 2 ώρες",
+    "description": "Default quick button label"
   }
 }
