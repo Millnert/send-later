@@ -530,6 +530,10 @@
     "message": "μήνας",
     "description": "Used in an error message when the phrase '1 month' needs to be displayed."
   },
+  "single_year": {
+    "message": "έτος",
+    "description": "Used in an error message when the phrase '1 year' needs to be displayed."
+  },
   "plural_minutely": {
     "message": "λεπτά",
     "description": ""
@@ -681,6 +685,10 @@
     "message": "Ειδοποίηση κατάστασης παράδοσης",
     "description": "The Thunderbird 'Options' menu command in the compose window for enabling delivery status notification for a message. This needs to match what's in the menu. NOTE: This is *different from* the 'Return Receipt' menu command which appears adjacent to it."
   },
+  "noDsnTitle": {
+    "message": "$1 δεν υποστηρίζεται με $2",
+    "description": "The title of the alert that pops up when the user attempts to schedule a message with delivery status notification enabled. $1 is replaced with the string 'DSN' and $2 is replaced with the extension name."
+  },
   "TimeMismatchConfirmTitle": {
     "message": "Ασυμφωνία χρόνου αποστολής / περιορισμού",
     "description": ""
@@ -824,6 +832,10 @@
   "DeveloperComments": {
     "message": "Παρακαλώ <a href='https://extended-thunder.github.io/send-later/#help'> στείλτε μου μήνυμα μέσω του ηλεκτρονικού ταχυδρομείου </a> αναφορές σφαλμάτων, εισηγήσεις, κλπ.",
     "description": "This text appears underneath 'Developer Comments' on the add-on home page. Please keep the link intactd when translating!"
+  },
+  "accelCtrlLabel": {
+    "message": "Ctrl+Κλικ",
+    "description": "Indicates key combination to access the ctrl+click accelerator function"
   },
   "cancel": {
     "message": "Ακύρωση",
